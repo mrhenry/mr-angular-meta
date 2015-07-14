@@ -3,4 +3,6 @@ import MetaDirective from './meta-directive';
 
 angular.module('mr-angular-meta', [])
   .service('MetaService', MetaService)
-  .directive('MetaDirective', MetaDirective);
+  .directive('mrMeta', MetaDirective);
+
+export default 'mr-angular-meta';
