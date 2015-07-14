@@ -1,5 +1,7 @@
 # mr-angular-meta
 
+Backport from [https://github.com/fd/fd-angular-meta/](https://github.com/fd/fd-angular-meta/).
+
 ## Getting started
 
 ```js
