@@ -1,0 +1,32 @@
+{
+  "name": "mr-angular-meta",
+  "version": "0.0.0",
+  "description": "Personal package for handling page meta data",
+  "repository": "https://github.com/mrhenry/mr-angular-meta.git",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo 'No tests...'",
+    "build": "make"
+  },
+  "keywords": [
+    "utils",
+    "angular"
+  ],
+  "author": ["Simon Menke", "Yves Van Broekhoven"],
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "browserify": "^10.2.3",
+    "exorcist": "^0.4.0"
+  },
+  "dependencies": {
+  },
+  "jspm": {
+    "jspmNodeConversion": false,
+    "format": "es6",
+    "main": "src/index.js",
+    "dependencies": {
+      "fd-angular-core": "npm:fd-angular-core"
+    }
+  }
+}
